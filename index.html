@@ -416,6 +416,84 @@
 
       <!-- image popup ends -->
 
+      
+      <!-- container row for form , map and contact us  -->
+
+      <div class="container">
+    <div class="row">
+      <!-- form starts here -->
+
+      <div class="col-6">
+      <form class="needs-validation" novalidate id="contactForm" action="https://formsubmit.co/gokay.yigit1998@gmail.com" method="post" >
+          <!-- Name input -->
+    <div class="mb-3">
+        <label class="form-label" for="name">İsim</label>
+        <input class="form-control" id="name" type="text" name="name" placeholder="İsim" data-sb-validations="required" />
+        <div class="invalid-feedback" data-sb-feedback="name:required">İsim Girmeniz Gerekli.</div>
+      </div>
+  
+        <!-- phone number input -->
+     <div class="mb-3">
+      <label for="phone" class="form-label">Telefon Numaranızı Giriniz</label>
+     <input class="form-control" type="tel" id="phone" name="tel"  placeholder="0-555-555-55-55" pattern="[0]{1}[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" data-sb-validations="required">
+     <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Telefon Numarası Gerekli.</div>
+        <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Telefon Numarası Geçersiz.</div>
+  
+     </div>
+      <!-- Email address input -->
+      <div class="mb-3">
+        <label class="form-label" for="emailAddress">E-Posta Adresinizi Giriniz</label>
+        <input class="form-control" id="emailAddress" type="email"  name="e-mail" placeholder="E-Posta Adresi" data-sb-validations="required, email" />
+        <div class="invalid-feedback" data-sb-feedback="emailAddress:required">E-Posta Gerekli.</div>
+        <div class="invalid-feedback" data-sb-feedback="emailAddress:email">E-Posta Adresi Geçersiz.</div>
+      </div>
+  
+       <!-- subject input -->
+      <div class="mb-3">
+          <label class="form-label" for="konu">Konu</label>
+          <input class="form-control" id="konu" type="text" name="konu" placeholder="Konu" data-sb-validations="required" />
+          <div class="invalid-feedback" data-sb-feedback="name:required">Konu Gerekli.</div>
+        </div>
+  
+  
+      <!-- Message input -->
+      <div class="mb-3">
+        <label class="form-label" for="message">Mesaj</label>
+        <textarea class="form-control" id="message" type="text"  name="mesaj" placeholder="Mesajiniz" style="height: 10rem;" data-sb-validations="required"></textarea>
+        <div class="invalid-feedback" data-sb-feedback="message:required">Mesaj Girmeniz Gerekli.</div>
+      </div>
+     <!-- disable catptcha after sending mail -->
+      <input type="hidden" name="_captcha" value="false">
+        <!-- button -->
+      <button class="btn btn-primary" type="submit">Gönder</button>
+       
+        
+      </form>
+      </div>
+      <!-- form ends here -->
+
+      <!-- map and contact us part -->
+      <div class="col-6">
+        <div class="container">
+        <div class="col-sm-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.9845826332885!2d26.416013515628414!3d40.1648969788404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b1a8279792ee93%3A0x5b4912d2a48ad90!2sEsenler%2C%20Alper%20Sk.%2C%2017000%20%C3%87anakkale%20Merkez%2F%C3%87anakkale!5e0!3m2!1str!2str!4v1670788311619!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+       <div class="col-sm-6 text-center py-5">
+        <h4>
+        <i class="bi bi-telephone-fill">Bize Ulaşın</i>
+    <a   href="">05555555555</a>
+    </h4>
+    </div>
+
+      </div>
+      </div>
+
+<!-- container  row for form , map and contact us  -->
+    </div>
+    </div>
+
+      <!-- form ends here -->
+
     <!-- footer -->
 
     <footer>
