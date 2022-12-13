@@ -330,3 +330,25 @@ box-shadow: inset 23px 40px 97px -159px rgba(0,0,0,0.75);
     opacity: 1;
     transition: 0.3s;
 }
+
+/* contact us  */
+
+
+
+.contact_info_item{padding-left: 20%;}
+
+
+.btn-form{height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 4px;}
+
+    .btn-form:hover{background-color: transparent;
+        color: black;
+        border: 1px solid black;
+        transition: 0.5s;
+    }
+
