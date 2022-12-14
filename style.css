@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+/* logo css starts here */
+
+img.logo {
+   
+    position:sticky;
+  top: 0;
+
+}
+
+
+
+/* logo css ends here */
+
 /* navbar part starts here */
 .navbar{
     background-color: white;
@@ -99,22 +112,7 @@ h1{
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        /* button css starts here */
 .btn1{
     height: 40px;
     width: 145px;
@@ -151,7 +149,9 @@ h1{
     transition: 0.5s;
 
 }
-/* services css starts here */
+        /* button css ends here */
+
+        /* services css starts here */
 .card{
     border: none;
     outline: none;
