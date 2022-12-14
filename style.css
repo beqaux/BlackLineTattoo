@@ -352,3 +352,25 @@ box-shadow: inset 23px 40px 97px -159px rgba(0,0,0,0.75);
         transition: 0.5s;
     }
 
+
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      
+      li {
+        margin-bottom: 10px;
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #555;
+      }
+      
+      li::before {
+        content: "";
+        background: url("/images/envelope.png") no-repeat;
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        margin-right: 10px;
+      }
