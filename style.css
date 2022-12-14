@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* navbar part starts here */
 .navbar{
     background-color: white;
 }
@@ -28,8 +29,9 @@
     cursor: pointer;
     text-decoration: none;
 }
+/* navbar part ends here here */
 
-/* main section */
+/* main section starts here */
 
 .main{
     background:url(/images/bg.png)no-repeat;
@@ -82,6 +84,8 @@
     transition: 0.5s;
 }
 
+/* main section ends here here */
+
 .about img{
     -webkit-box-shadow: 6px 4px 41px -24px rgba(0,0,0,0.75);
     -moz-box-shadow: 6px 4px 41px -24px rgba(0,0,0,0.75);
@@ -95,122 +99,21 @@ h1{
 
 }
 
-.progress{
-
-    background-color: rgb(223, 219, 219);
-    justify-content: flex-start;
-    border-radius: 50px;
-    align-items: center;
-    position: relative;
-    display: flex;
-    height: 25px;
-    width: 100%;
-
--webkit-box-shadow: inset 23px 40px 97px -159px rgba(0,0,0,0.75);
--moz-box-shadow: inset 23px 40px 97px -159px rgba(0,0,0,0.75);
-box-shadow: inset 23px 40px 97px -159px rgba(0,0,0,0.75);
-
-
-}
-
-.pro-value1{
-    animation: load1 3s normal forwards;
-    border-radius: 50px;
-    background-color: black;
-    height: 25px;
-    width: 0;
 
 
 
-}
 
 
 
-.progress p{
-
-    color: white;
-    padding: 12px;
-
-}
-
-.pro-value2{
-    animation: load2 3s normal forwards;
-    border-radius: 50px;
-    background-color: black;
-    height: 25px;
-    width: 0;
 
 
 
-}
-.pro-value3{
-    animation: load3 3s normal forwards;
-    border-radius: 50px;
-    background-color: black;
-    height: 25px;
-    width: 0;
 
 
 
-}
-.pro-value4{
-    animation: load4 3s normal forwards;
-    border-radius: 50px;
-    background-color: black;
-    height: 25px;
-    width: 0;
 
 
 
-}
-@keyframes load1{
-
-    0%{
-        width: 0;
-
-    }
-
-    100%{
-        width: 70%;
-
-    }
-}
-@keyframes load2{
-
-    0%{
-        width: 0;
-
-    }
-
-    100%{
-        width: 85%;
-
-    }
-}
-@keyframes load3{
-
-    0%{
-        width: 0;
-
-    }
-
-    100%{
-        width: 98%;
-
-    }
-}
-@keyframes load4{
-
-    0%{
-        width: 0;
-
-    }
-
-    100%{
-        width: 98%;
-
-    }
-}
 
 .btn1{
     height: 40px;
@@ -248,7 +151,7 @@ box-shadow: inset 23px 40px 97px -159px rgba(0,0,0,0.75);
     transition: 0.5s;
 
 }
-
+/* services css starts here */
 .card{
     border: none;
     outline: none;
@@ -280,8 +183,10 @@ box-shadow: inset 23px 40px 97px -159px rgba(0,0,0,0.75);
     transition: 0.5s;
 
 }
+/* services css ends here */
 
-/* porfotlio */
+
+/* galery css starts here */
 
 .control ul li{
     list-style: none;
@@ -331,12 +236,9 @@ box-shadow: inset 23px 40px 97px -159px rgba(0,0,0,0.75);
     transition: 0.3s;
 }
 
-/* contact us  */
+/* galery css ends here */
 
-
-
-.contact_info_item{padding-left: 20%;}
-
+/* form css starts here */
 
 .btn-form{height: 40px;
     width: 145px;
@@ -351,6 +253,13 @@ box-shadow: inset 23px 40px 97px -159px rgba(0,0,0,0.75);
         border: 1px solid black;
         transition: 0.5s;
     }
+
+    /* form css ends here */
+
+/* contact us css starts here */
+
+
+
 
 
 
@@ -374,3 +283,5 @@ box-shadow: inset 23px 40px 97px -159px rgba(0,0,0,0.75);
         display: inline-block;
         margin-right: 10px;
       }
+
+      /* contact us css ends here */
