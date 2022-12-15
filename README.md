@@ -1,9 +1,9 @@
 # BlackLineTattoo
 Tattoo Website
 
-Giriş sayfası mywork=>Galeri, hireme => bize ulaşın olacak ve renkleri siyah olacak
+Giriş sayfası mywork=>Galeri, hireme => bize ulaşın olacak ve renkleri siyah olacak  ✅
 
-menüde galeri, s.s.s, bize ulaşın olacak ve tıklayınca sayfada yönlendirecek.
+menüde galeri, s.s.s, bize ulaşın olacak ve tıklayınca sayfada yönlendirecek.    ✅
 
 Download cv uçacak, contact us yerine instagram iconu gelip instaya yönlendirecek
 
