@@ -11,7 +11,7 @@ img.logo {
     position:sticky;
   top: 0;
 
-}
+} 
 
 
 
@@ -63,37 +63,39 @@ img.logo {
     font-size: 1.4rem;
     text-transform: uppercase;
     line-height: 1;
-    border-bottom: 3px solid rgb(233, 20, 109);
+    /* border-bottom: 3px solid rgb(233, 20, 109); */
     width: 40%;
 }
 
 .main .bt1{
     height: 55px;
     width: 138px;
-    background-color:rgb(233, 20, 109);
-    color: white;
+    background-color:transparent;
+    color: rgb(65,74,76);
+    border: 1px solid rgb(59, 68, 75);
     outline: none;
-    border: none;
+    
     font-weight: bold;
     border-radius: 5px;
 }
 .main .bt1:hover{
-    background-color: rgb(202,18,95);
+    background-color: rgb(59,68,75);
     transition: 0.5s;
+    color: rgb(251,250,245);
 }
 .main .bt2{
     height: 55px;
     width: 138px;
     background-color:transparent;
-    color: rgb(233, 20, 109);
+    color: rgb(65,74,76);
     outline: none;
-    border: 1px solid rgb(233, 20, 109);
+    border: 1px solid rgb(59, 68, 75);
     font-weight: bold;
     border-radius: 5px;
 }
 .main .bt2:hover{
-    background-color: rgb(233, 20, 109);
-    color: white;
+    background-color: rgb(65,74,76);
+    color: rgb(251,250,245);
     transition: 0.5s;
 }
 
