@@ -115,7 +115,9 @@ h1{
 }
 
         /* button css starts here */
-.btn1{
+
+
+/* .btn1{
     height: 40px;
     width: 145px;
     outline: none;
@@ -131,26 +133,58 @@ h1{
     border: 1px solid black;
     transition: 0.5s;
 
-}
+} */
 
-.btn2{
-    height: 40px;
-    width: 145px;
+ /* .btn2{
+     height: 40px;
+    width: 145px; 
     outline: none;
     border: 1px solid black;
     background-color: transparent;
     color: black;
     border-radius: 4px;
-}
-
-
-.btn2:hover{
+    text-decoration: none;
+   
+} */
+/* .btn2:hover{
     background-color: black;
     color: white;
     border: none;
     transition: 0.5s;
 
-}
+}   */
+
+
+.bi-instagram {
+padding: 20px 30px;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 4px;
+font-size: 20px;
+border-radius: 40px;
+color: #fff;
+background: radial-gradient(circle at 10% 280%,
+ #fdf497 0%,
+ #fdf397 15%,
+ #fd5949 45%,
+ #d6249f 70%,
+ #6801a3 95%
+ );
+
+ background-size: 150%;
+ background-position-x: 90%;
+transition:background-position-x 0.5s linear;
+  
+  }
+
+  .bi-instagram:hover{
+    background-position-x: 10%;
+    color: rgb(59, 68, 75);
+    transition: 0.75s;
+  }
+
+
         /* button css ends here */
 
         /* services css starts here */
@@ -287,3 +321,5 @@ h1{
       }
 
       /* contact us css ends here */
+
+a{text-decoration: none;}
