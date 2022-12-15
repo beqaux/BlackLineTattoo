@@ -4,14 +4,12 @@
     box-sizing: border-box;
 }
 
+
 /* logo css starts here */
 
-img.logo {
-   
-    position:sticky;
-  top: 0;
 
-} 
+
+/* Absolute positioning for the logo */
 
 
 
@@ -214,7 +212,7 @@ transition:background-position-x 0.5s linear;
 }
 .card:hover .circle{
 
-    background-color: black;
+    background-color: #fffdd0;
     color:white;
     transition: 0.5s;
 
