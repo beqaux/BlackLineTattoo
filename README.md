@@ -7,10 +7,10 @@ menüde galeri, s.s.s, bize ulaşın olacak ve tıklayınca sayfada yönlendirec
 
 Download cv uçacak, contact us yerine instagram iconu gelip instaya yönlendirecek  ❗❗❗ BİR BOKLAR YEDİM BURDA BAKARSIN BU KISMA ❗❗❗
 
-Hizmetler düzenlenecek ve icon bulunacak
+Hizmetler düzenlenecek ve icon bulunacak  ❗ isimlerini biraz değiştirdim ama hala düzenlenmesi lazım iconlar için de span içinde ki icon taglarını img olarak değiştirip width ve height verdim görseller alakasız oldu ama güzel imgler bulunup img tagı ile kullanılabilir icon tagı içinde güzel icon bulabiliceğimizi sanmıyorum
 
-Fotoğraf kategorileme yapılacak all, ozan, ersin muhabbeti (a tagini button yapıp öyle fixlemek lazım)
+Fotoğraf kategorileme yapılacak all, ozan, ersin muhabbeti (a tagini button yapıp öyle fixlemek lazım) ❓❓ Beraber Bakarız Buna
 
-Üst kısım yapılacak
+Üst kısım yapılacak  ❓ Yapamadım Bu Kısmı Bakıcam Tekrar
 
-gece modu yapılacak
+gece modu yapılacak   
