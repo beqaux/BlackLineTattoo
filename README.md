@@ -5,7 +5,7 @@ Giriş sayfası mywork=>Galeri, hireme => bize ulaşın olacak ve renkleri siyah
 
 menüde galeri, s.s.s, bize ulaşın olacak ve tıklayınca sayfada yönlendirecek.    ✅
 
-Download cv uçacak, contact us yerine instagram iconu gelip instaya yönlendirecek
+Download cv uçacak, contact us yerine instagram iconu gelip instaya yönlendirecek  ❗❗❗ BİR BOKLAR YEDİM BURDA BAKARSIN BU KISMA ❗❗❗
 
 Hizmetler düzenlenecek ve icon bulunacak
 
