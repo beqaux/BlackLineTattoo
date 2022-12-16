@@ -162,13 +162,9 @@ letter-spacing: 4px;
 font-size: 20px;
 border-radius: 40px;
 color: #fff;
-background: radial-gradient(circle at 10% 280%,
- #fdf497 0%,
- #fdf397 15%,
- #fd5949 45%,
- #d6249f 70%,
- #6801a3 95%
- );
+background-position-x: 10%;
+color: rgb(59, 68, 75);
+transition: 0.75s; 
 
  background-size: 150%;
  background-position-x: 90%;
@@ -177,9 +173,7 @@ transition:background-position-x 0.5s linear;
   }
 
   .bi-instagram:hover{
-    background-position-x: 10%;
-    color: rgb(59, 68, 75);
-    transition: 0.75s;
+   
   }
 
 
