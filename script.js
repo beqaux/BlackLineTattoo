@@ -40,3 +40,21 @@
           });
 
         //   galeri için kategori scripti ends here
+
+        // deneme
+       
+            // $('#logo').on('scroll', function() {
+            //     if ($(this).is(':in-viewport')) {
+            //       // The element is in view, so change its class name
+            //       $(this).addClass('main py-5 sticky-top');
+            //     } else {
+            //       // The element is not in view, so remove the new class name
+            //       $(this).removeClass('main py-5');
+            //     }
+            //   });
+            $(document).ready(function() {
+                $("#main").mouseenter(function() {
+                  $("#logo").removeClass("main py-5 sticky-top");
+                });
+              });
+         
