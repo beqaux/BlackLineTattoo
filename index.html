@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <script src="https://kit.fontawesome.com/c26cd2166c.js"></script>
-    <link rel="stylesheet" href="script.js">
+    <script src="https://code.jquery.com/jquery-3.6.2.slim.js" integrity="sha256-OflJKW8Z8amEUuCaflBZJ4GOg4+JnNh9JdVfoV+6biw=" crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+    
     <title>Document</title>
 </head>
 <body>
@@ -193,33 +195,33 @@
       <!-- section for galery starts here -->
       <section id="section2" class="portfolio py-5">
             <div class="container text-center py-5">
-                    <h1 class="text-center pb-5" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1500" >Portfolio</h1>
+                    <h1 class="text-center pb-5" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1500" >Galeri</h1>
                     <div class="control">
-                        <ul>
-                            <li class="button active" >All</li>
-                            <li class="button" >Ozan</li>
-                            <li class="button" >Ersin</li>
-                            <li class="button" >Betül</li>
-                            <li class="button" >Elif</li>
+                        <ul id="categories">
+                            <li class="button list-item"  data-category="hepsi">Hepsi</li>
+                            <li class="button list-item"  data-category="ozan">Ozan</li>
+                            <li class="button list-item"  data-category="ersin">Ersin</li>
+                            <li class="button list-item"  data-category="betül">Betül</li>
+                            <li class="button  list-item"  data-category="elif">Elif</li>
                         </ul>
                     </div>
-                    <div id="parent">
+                    <div id="photos">
                         <div class="row pt-5">
                             <div class="col-sm-4">
                                 <div class="item">
-                                    <img src="/images/1.jpg" class="img-fluid ozan" alt="">
+                                    <img src="/images/1.jpg" class="img-fluid" data-category-ersin="false" data-category-betül="false" data-category-elif="false" data-category-ozan="true" data-category-hepsi="true" alt="">
                                     <span><i class="fas fa-plus" data-bs-toggle="modal" data-bs-target="#portfoliomodal"></i></span>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="item">
-                                    <img src="/images/2.jpg" class="img-fluid ozan" alt="">
+                                    <img src="/images/2.jpg" class="img-fluid" data-category-ersin="false" data-category-betül="false" data-category-elif="false" data-category-ozan="true" data-category-hepsi="true" alt="">
                                     <span><i class="fas fa-plus" data-bs-toggle="modal" data-bs-target="#portfoliomodal2"></i></span>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="item">
-                                    <img src="/images/3.jpg" class="img-fluid ozan" alt="">
+                                    <img src="/images/3.jpg" class="img-fluid" data-category-ersin="false" data-category-betül="false" data-category-elif="false" data-category-ozan="true" data-category-hepsi="true" alt="">
                                     <span><i class="fas fa-plus" data-bs-toggle="modal" data-bs-target="#portfoliomodal3"></i></span>
                                 </div>
                             </div>
@@ -227,19 +229,19 @@
                         <div class="row pt-3">
                             <div class="col-sm-4">
                                 <div class="item">
-                                    <img src="/images/4.jpg" class="img-fluid ersin" alt="">
+                                    <img src="/images/4.jpg" class="img-fluid" data-category-ersin="true" data-category-betül="false" data-category-elif="false" data-category-ozan="false" data-category-hepsi="true" alt="">
                                     <span><i class="fas fa-plus" data-bs-toggle="modal" data-bs-target="#portfoliomodal4"></i></span>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="item">
-                                    <img src="/images/5.jpg" class="img-fluid ersin" alt="">
+                                    <img src="/images/5.jpg" class="img-fluid" data-category-ersin="true" data-category-betül="false" data-category-elif="false" data-category-ozan="false" data-category-hepsi="true" alt="">
                                     <span><i class="fas fa-plus" data-bs-toggle="modal" data-bs-target="#portfoliomodal5"></i></span>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="item">
-                                    <img src="/images/6.jpg" class="img-fluid ersin" alt="">
+                                    <img src="/images/6.jpg" class="img-fluid" data-category-ersin="true" data-category-betül="false" data-category-elif="false" data-category-ozan="false" data-category-hepsi="true" alt="">
                                     <span><i class="fas fa-plus" data-bs-toggle="modal" data-bs-target="#portfoliomodal6"></i></span>
                                 </div>
                             </div>
@@ -247,19 +249,19 @@
                         <div class="row pt-3">
                             <div class="col-sm-4">
                                 <div class="item">
-                                    <img src="/images/7.jpg" class="img-fluid betül" alt="">
+                                    <img src="/images/7.jpg" class="img-fluid" data-category-ersin="false" data-category-betül="true" data-category-elif="false" data-category-ozan="false" data-category-hepsi="true" alt="">
                                     <span><i class="fas fa-plus" data-bs-toggle="modal" data-bs-target="#portfoliomodal7"></i></span>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="item">
-                                    <img src="/images/8.jpg" class="img-fluid betül" alt="">
+                                    <img src="/images/8.jpg" class="img-fluid" data-category-ersin="false" data-category-betül="true" data-category-elif="false" data-category-ozan="false" data-category-hepsi="true" alt="">
                                     <span><i class="fas fa-plus" data-bs-toggle="modal" data-bs-target="#portfoliomodal8"></i></span>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="item">
-                                    <img src="/images/9.jpg" class="img-fluid betül" alt="">
+                                    <img src="/images/9.jpg" class="img-fluid" data-category-ersin="false" data-category-betül="true" data-category-elif="false" data-category-ozan="false" data-category-hepsi="true" alt="">
                                     <span><i class="fas fa-plus" data-bs-toggle="modal" data-bs-target="#portfoliomodal9"></i></span>
                                 </div>
                             </div>
@@ -267,19 +269,19 @@
                         <div class="row pt-3">
                             <div class="col-sm-4">
                                 <div class="item">
-                                    <img src="/images/10.jpg" class="img-fluid elif" alt="">
+                                    <img src="/images/10.jpg" class="img-fluid" data-category-ersin="false" data-category-betül="false" data-category-elif="true" data-category-ozan="false" data-category-hepsi="true" alt="">
                                     <span><i class="fas fa-plus" data-bs-toggle="modal" data-bs-target="#portfoliomodal10"></i></span>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="item">
-                                    <img src="/images/11.jpg" class="img-fluid elif" alt="">
+                                    <img src="/images/11.jpg" class="img-fluid" data-category-ersin="false" data-category-betül="false" data-category-elif="true" data-category-ozan="false" data-category-hepsi="true" alt="">
                                     <span><i class="fas fa-plus" data-bs-toggle="modal" data-bs-target="#portfoliomodal11"></i></span>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="item">
-                                    <img src="/images/12.jpg" class="img-fluid elif" alt="">
+                                    <img src="/images/12.jpg" class="img-fluid" data-category-ersin="false" data-category-betül="false" data-category-elif="true" data-category-ozan="false" data-category-hepsi="true" alt="">
                                     <span><i class="fas fa-plus" data-bs-toggle="modal" data-bs-target="#portfoliomodal12"></i></span>
                                 </div>
                             </div>
@@ -665,7 +667,7 @@
       </div>
 </section>
      <!-- section for form , map and contact us ends here  -->
-
+     
     <!-- footer  starts here-->
     <footer>
         <div class="container text-center py-3">
@@ -679,6 +681,18 @@
     <!-- footer ends here -->
 
     <!-- scripts starts here -->
+    
+
+<!-- 
+<script>
+    $(document).ready(function() {
+      $("#categories li").click(function() {
+        var category = $(this).data("category");
+        $("#photos img").hide();
+        $("#photos img[data-category-" + category + "='true']").show();
+      });
+    });
+  </script> -->
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
@@ -686,9 +700,7 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.1.slim.js" integrity="sha256-tXm+sa1uzsbFnbXt8GJqsgi2Tw+m4BLGDof6eUPjbtk=" crossorigin="anonymous"></script>
-
-
+    
 
     <!-- scripts ends here -->
 </body>

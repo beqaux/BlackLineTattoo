@@ -171,10 +171,10 @@ transition: 0.75s;
 transition:background-position-x 0.5s linear;
   
   }
-
+/* 
   .bi-instagram:hover{
-   
-  }
+   hafif yukarıya oynayacak şekilde transition eklenecek
+  } */
 
 
         /* button css ends here */
@@ -220,11 +220,28 @@ transition:background-position-x 0.5s linear;
     list-style: none;
     background-color: black;
     padding: 5px 15px;
+    margin: 5px;
     color: white;
     display: inline-block;
     cursor: pointer;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    border-radius: 15px;
+    
 }
+/* .control ul li:hover {
+    top: -10px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+} */
+
+.list-item:hover {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    top: -10px;
+  }
 
 .item{
     position: relative;
@@ -291,7 +308,7 @@ transition:background-position-x 0.5s linear;
 
 
 
-    ul {
+    /* ul {
         list-style-type: none;
         padding: 0;
       }
@@ -310,7 +327,7 @@ transition:background-position-x 0.5s linear;
         height: 20px;
         display: inline-block;
         margin-right: 10px;
-      }
+      } */
 
       /* contact us css ends here */
 
