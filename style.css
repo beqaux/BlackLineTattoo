@@ -333,3 +333,11 @@ transition:background-position-x 0.5s linear;
 
 a{text-decoration: none;}
 
+.fixed-image {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    right: 10%;
+    transform: translate(-50%, +20%);
+  }
+  
