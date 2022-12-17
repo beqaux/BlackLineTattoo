@@ -171,6 +171,11 @@ transition: 0.75s;
 transition:background-position-x 0.5s linear;
   
   }
+  @media only screen and (max-width: 600px) {
+    .bi-instagram {
+      font-size: 0.8rem;
+    }
+  }
 /* 
   .bi-instagram:hover{
    hafif yukarıya oynayacak şekilde transition eklenecek
