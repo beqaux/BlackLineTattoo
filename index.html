@@ -16,6 +16,15 @@
 </head>
 <body>
 
+    <!-- line container  -->
+
+    <div class="line-container">
+        <svg viewBox="0 0 260 2316" fill="none" preserveAspectRatio="xMidYMax meet">
+            <path d="M256 1.5L4.5 641C23.1667 656.667 66.1 689.8 88.5 697C110.9 704.2 144.5 708 158.5 709V2315.5" stroke="#191917" stroke-width="7"/>
+        </svg>
+            
+    </div>
+
         <!-- section for big icon starts here -->
 
         <section class="main">
@@ -728,7 +737,22 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-    
+    <script>
+        let path = document.querySelector('path')
+        let pathLength = path.getTotalLength()
+
+        path.style.strokeDasharray = pathLength + ' ' + pathLength;
+        
+        path.style.strokeDashoffset = pathLength;
+
+        window.addEventListener('scroll', () => {
+            var scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+
+            var drawLength = pathLength * 2 * scrollPercentage;
+            
+            path.style.strokeDashoffset = pathLength - drawLength;
+        })
+    </script>
 
     <!-- scripts ends here -->
 </body>
