@@ -25,7 +25,8 @@ $(document).ready(function() {
   });
 });
     
-    // galeri için active hover scripti ends her
+    // galeri için active hover scripti ends here
+    
     // galeri için kategori scripti starts here
     $(document).ready(function() {
         $("#categories li").click(function() {
@@ -34,7 +35,9 @@ $(document).ready(function() {
           $("#photos img[data-category-" + category + "='true']").show();
         });
       })
+// galeri için kategori scripti ends here
 
+// logo slide script starts here
 
 let called = false
 document.addEventListener('scroll', e => {
@@ -51,3 +54,5 @@ function calledEvent(){
     fixedImage.style.top = 700 -scrollTop + 'px';
   });
 }              
+
+// logo slide script ends here
