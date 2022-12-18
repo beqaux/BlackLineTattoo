@@ -29,8 +29,9 @@
 }
 
 .nav-link:hover{
-    color: white;
-    background-color: black;
+    background-color: rgb(65,74,76);
+    color: rgb(251,250,245);
+    transition: 0.5s;
 }
 
 .navbar-brand{
@@ -176,10 +177,8 @@ transition:background-position-x 0.5s linear;
       font-size: 0.8rem;
     }
   }
-/* 
-  .bi-instagram:hover{
-   hafif yukarıya oynayacak şekilde transition eklenecek
-  } */
+.bi-instagram:hover{top: -10;
+color: rgb(137, 146, 153) ;}
 
 
         /* button css ends here */
@@ -211,8 +210,8 @@ transition:background-position-x 0.5s linear;
 }
 .card:hover .circle{
 
-    background-color: #fffdd0;
-    color:white;
+   background-color: rgb(179, 178, 178);
+   
     transition: 0.5s;
 
 }
@@ -298,9 +297,10 @@ transition:background-position-x 0.5s linear;
     color: white;
     border-radius: 4px;}
 
-    .btn-form:hover{background-color: transparent;
-        color: black;
+    .btn-form:hover{       
         border: 1px solid black;
+        background-color: rgb(65,74,76);
+         color: rgb(251,250,245);
         transition: 0.5s;
     }
 
@@ -365,3 +365,6 @@ svg {
 
 }
 
+/* line container css ends here */
+
+h5{font-size: 1.50rem;}

@@ -74,3 +74,10 @@ function calledEvent(){
 //         })
 
 //         // svg code ends
+
+
+$(document).ready(function() {
+  $('#carouselExampleFade').carousel({
+    interval: 2000
+  });
+});
