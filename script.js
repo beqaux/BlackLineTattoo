@@ -56,11 +56,26 @@ $(document).ready(function() {
   $('#carouselExampleFade').carousel({
     interval: 2000
   });
+  
+
 });
 
 // carousel js ends here
 
-const element = document.getElementById('deleted');
-setTimeout(function() {
-  element.remove();
-}, 5000);
+// deletes black line
+$(document).ready(function(){
+  setTimeout(function() {
+    $('#deleted').remove();
+  }, 5000);
+})
+
+window.addEventListener('load', function() {
+  // Disable scrolling
+  window.scrollTo(0, 0);
+  document.body.style.overflow = 'hidden';
+
+  // Re-enable scrolling after 5 seconds
+  setTimeout(function() {
+    document.body.style.overflow = 'auto';
+  }, 5000);
+});
