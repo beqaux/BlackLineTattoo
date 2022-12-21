@@ -6,7 +6,7 @@ $(document).ready(function() {
   $(".list-item").click(function() {
     if (selectedItem != null) {
       $(selectedItem).css({
-        "background-color": "rgb(245, 245, 245)",
+        "background-color": "rgba(36, 36, 28, 0.2)",
         "color": "rgb(36, 36, 28)",
         "top": "0px"
       });
@@ -28,7 +28,7 @@ $(document).ready(function() {
   }, function() {
     if (this != selectedItem) {
       $(this).css({
-        "background-color": "rgb(245, 245, 245)",
+        "background-color": "rgba(36, 36, 28, 0.2)",
         "color": "rgb(36, 36, 28)",
         "top": "0px"
       });

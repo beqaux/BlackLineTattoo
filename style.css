@@ -201,9 +201,11 @@ color: rgba(36, 36, 28 , 0.5) ;}
 
 /* galery css starts here */
 
+
+
 .control ul li{
     list-style: none;
-    background-color: rgb(245,245,245);
+    background-color: rgba(36,36,28, 0.2);
     padding: 5px 15px;
     margin: 5px;
     color: rgb(36,36,28);
