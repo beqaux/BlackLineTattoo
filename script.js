@@ -1,10 +1,3 @@
-// page load from start when refresh code starts here
-
-window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
-}
-// page load from start when refresh code ends here
-
 
 //    galeri için active hover scripti starts here
 $(document).ready(function() {
