@@ -1,7 +1,8 @@
 // page load from start when refresh code starts here
-window.addEventListener('load', function() {
+
+window.onbeforeunload = function () {
   window.scrollTo(0, 0);
-});
+}
 // page load from start when refresh code ends here
 
 
@@ -12,30 +13,30 @@ $(document).ready(function() {
   $(".list-item").click(function() {
     if (selectedItem != null) {
       $(selectedItem).css({
-        "background-color": "rgb(36, 36, 28)",
-        "color": "rgb(245, 245, 245)",
+        "background-color": "rgb(245, 245, 245)",
+        "color": "rgb(36, 36, 28)",
         "top": "0px"
       });
     }
     selectedItem = this;
     $(this).css({
-      "background-color": "rgba(36, 36, 28 , 0.2)",
-      "color": "rgb(36, 36, 28)",
+      "background-color": "rgb(36, 36, 28)",
+      "color": "rgb(245,245,245)",
       "top": "-0.75rem"
     });
   });
 
   $(".list-item").hover(function() {
     $(this).css({
-      "background-color": "rgba(36, 36, 28 , 0.8)",
+      "background-color": "rgba(36, 36, 28 , 0.5)",
       "color": "rgb(245, 245, 245)",
       "top": "-1rem"
     });
   }, function() {
     if (this != selectedItem) {
       $(this).css({
-        "background-color": "rgb(36, 36, 28 )",
-        "color": "rgb(245, 245, 245)",
+        "background-color": "rgb(245, 245, 245)",
+        "color": "rgb(36, 36, 28)",
         "top": "0px"
       });
     }
