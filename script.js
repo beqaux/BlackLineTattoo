@@ -60,3 +60,7 @@ $(document).ready(function() {
 
 // carousel js ends here
 
+const element = document.getElementById('deleted');
+setTimeout(function() {
+  element.remove();
+}, 5000);
