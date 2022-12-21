@@ -52,14 +52,14 @@ body {
 
 .navbar-brand{
     font-size: 1.25rem;
-    font-weight: 750;
+    font-weight: bold;
     color: rgb(36, 36, 28);
     cursor: pointer;
     text-decoration: none;
 }
 
 .navbar-brand:hover{ font-size: 1.25rem;
-    font-weight: 750;
+    font-weight: bold;
     color: rgba(36, 36, 28 , 0.5);
     cursor: pointer;
     text-decoration: none;}
@@ -168,12 +168,13 @@ color: rgba(36, 36, 28 , 0.5) ;}
 
         /* services css starts here */
 .card{
-    background-color: transparent;
+    background-color: rgb(245,245,245);
+    border-radius: 50px;
     border: none;
     outline: none;
-    /* -webkit-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
     -moz-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
-    box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75); */
+    box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
 
 
 }
@@ -206,7 +207,6 @@ color: rgba(36, 36, 28 , 0.5) ;}
 
 
 /* galery css starts here */
-
 
 
 .control ul li{
@@ -336,9 +336,14 @@ svg {
 
 /* line container css ends here */
 
-/* h5 css starts here */
-h5{font-size: 1.50rem;}
-/* h5 css ends here */
+/* h css starts here */
+h4{font-weight: 600;}
+h3{font-weight: 500;}
+
+h5{font-size: 1.50rem;
+font-weight: bold;}
+
+/* h css ends here */
 
 /* carousel css starts here */
 
