@@ -57,6 +57,12 @@ body {
     cursor: pointer;
     text-decoration: none;
 }
+
+.navbar-brand:hover{ font-size: 1.25rem;
+    font-weight: 750;
+    color: rgba(36, 36, 28 , 0.5);
+    cursor: pointer;
+    text-decoration: none;}
 /* navbar part ends here here */
 
 
