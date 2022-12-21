@@ -1,8 +1,23 @@
+
+/* page main css starts here */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body {
+    background-color: rgb(245, 245, 245);
+
+    font-family: 'Open Sans', sans-serif;
+  }
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+.main{background-color: rgb(245, 245, 245);}
+
+/* page main css ends here */
 
 
 /* logo css starts here */
@@ -17,11 +32,11 @@
 
 /* navbar part starts here */
 .navbar{
-    background-color: white;
+    background-color: rgb(245, 245, 245);
 }
 
 .nav-link{
-    color:black;
+    color:rgb(36, 36, 28);
     font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
@@ -29,25 +44,28 @@
 }
 
 .nav-link:hover{
-    background-color: rgb(65,74,76);
-    color: rgb(251,250,245);
+    background-color: rgb(36, 36, 28);
+    color: rgb(245, 245, 245);
     transition: 0.5s;
+   
 }
 
 .navbar-brand{
     font-size: 1.25rem;
-    font-weight: 800;
-    color: black;
+    font-weight: 750;
+    color: rgb(36, 36, 28);
     cursor: pointer;
     text-decoration: none;
 }
 /* navbar part ends here here */
 
+
+
 /* main section starts here */
 
 .main{
-    background:url(/images/bg.png)no-repeat;
-    background-size: cover;
+    /* background:url(/images/bg.png)no-repeat;
+    background-size: cover; */
     width: 100%;
     height: 95vh;
 }
@@ -62,39 +80,38 @@
     font-size: 1.4rem;
     text-transform: uppercase;
     line-height: 1;
-    /* border-bottom: 3px solid rgb(233, 20, 109); */
-    width: 40%;
+     width: 40%;
 }
 
 .main .bt1{
     height: 55px;
     width: 138px;
     background-color:transparent;
-    color: rgb(65,74,76);
-    border: 1px solid rgb(59, 68, 75);
+    color: rgb(36, 36, 28);
+    border: 1px solid rgb(36, 36, 28);
     outline: none;
     
     font-weight: bold;
     border-radius: 5px;
 }
 .main .bt1:hover{
-    background-color: rgb(59,68,75);
+    background-color: rgb(36, 36, 28);
     transition: 0.5s;
-    color: rgb(251,250,245);
+    color: rgb(245, 245, 245);
 }
 .main .bt2{
     height: 55px;
     width: 138px;
     background-color:transparent;
-    color: rgb(65,74,76);
+    color: rgb(36, 36, 28);
     outline: none;
-    border: 1px solid rgb(59, 68, 75);
+    border: 1px solid rgb(36, 36, 28);
     font-weight: bold;
     border-radius: 5px;
 }
 .main .bt2:hover{
-    background-color: rgb(65,74,76);
-    color: rgb(251,250,245);
+    background-color: rgb(36, 36, 28);
+    color: rgb(245,245,245);
     transition: 0.5s;
 }
 
@@ -113,46 +130,7 @@ h1{
 
 }
 
-        /* button css starts here */
-
-
-/* .btn1{
-    height: 40px;
-    width: 145px;
-    outline: none;
-    border: none;
-    background-color: black;
-    color: white;
-    border-radius: 4px;
-}
-
-.btn1:hover{
-    background-color: transparent;
-    color: black;
-    border: 1px solid black;
-    transition: 0.5s;
-
-} */
-
- /* .btn2{
-     height: 40px;
-    width: 145px; 
-    outline: none;
-    border: 1px solid black;
-    background-color: transparent;
-    color: black;
-    border-radius: 4px;
-    text-decoration: none;
-   
-} */
-/* .btn2:hover{
-    background-color: black;
-    color: white;
-    border: none;
-    transition: 0.5s;
-
-}   */
-
+        /*  instagram button css starts here */
 
 .bi-instagram {
 padding: 20px 30px;
@@ -162,9 +140,8 @@ font-weight: bold;
 letter-spacing: 4px;
 font-size: 20px;
 border-radius: 40px;
-color: #fff;
 background-position-x: 10%;
-color: rgb(59, 68, 75);
+color: rgb(36, 36, 28);
 transition: 0.75s; 
 
  background-size: 150%;
@@ -178,18 +155,19 @@ transition:background-position-x 0.5s linear;
     }
   }
 .bi-instagram:hover{top: -10;
-color: rgb(137, 146, 153) ;}
+color: rgba(36, 36, 28 , 0.5) ;}
 
 
-        /* button css ends here */
+        /* instagram button css ends here */
 
         /* services css starts here */
 .card{
+    background-color: transparent;
     border: none;
     outline: none;
-    -webkit-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+    /* -webkit-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
     -moz-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
-    box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+    box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75); */
 
 
 }
@@ -200,21 +178,24 @@ color: rgb(137, 146, 153) ;}
 .circle{
     height: 70px;
     width: 70px;
-    background-color: rgb(228, 220, 220);
-    color: black;
+    background-color: rgb(245, 245, 245);
+    color: rgb(36, 36, 28);
     padding: 12px;
     font-size: 30px;
     border-radius: 50%;
     display: inline-block;
     margin-bottom: 20px;
+   
 }
 .card:hover .circle{
 
-   background-color: rgb(179, 178, 178);
+   background-color: rgba(36, 36, 28 , 0.2);
    
     transition: 0.5s;
 
 }
+
+
 /* services css ends here */
 
 
@@ -222,10 +203,10 @@ color: rgb(137, 146, 153) ;}
 
 .control ul li{
     list-style: none;
-    background-color: black;
+    background-color: rgb(36, 36, 28);
     padding: 5px 15px;
     margin: 5px;
-    color: white;
+    color: rgb(245, 245, 245);
     display: inline-block;
     cursor: pointer;
     letter-spacing: 3px;
@@ -235,17 +216,7 @@ color: rgb(137, 146, 153) ;}
     border-radius: 15px;
     
 }
-/* .control ul li:hover {
-    top: -10px;
-    background-color: rgb(32, 32, 32);
-    color: white;
-} */
 
-.list-item:hover {
-    background-color: rgb(32, 32, 32);
-    color: white;
-    top: -10px;
-  }
 
 .item{
     position: relative;
@@ -293,46 +264,20 @@ color: rgb(137, 146, 153) ;}
     width: 145px;
     outline: none;
     border: none;
-    background-color: black;
-    color: white;
+    background-color: rgb(36, 36, 28);
+    color: rgb(245, 245, 245);
     border-radius: 4px;}
 
     .btn-form:hover{       
-        border: 1px solid black;
-        background-color: rgb(65,74,76);
-         color: rgb(251,250,245);
+        border: 1px solid rgb(36, 36, 28);
+        background-color: rgba(36, 36, 28 , 0.8);
+         color: rgb(245, 245, 245);
         transition: 0.5s;
     }
 
     /* form css ends here */
 
 /* contact us css starts here */
-
-
-
-
-
-
-    /* ul {
-        list-style-type: none;
-        padding: 0;
-      }
-      
-      li {
-        margin-bottom: 10px;
-        font-size: 1.2em;
-        font-weight: bold;
-        color: #555;
-      }
-      
-      li::before {
-        content: "";
-        background: url("/images/envelope.png") no-repeat;
-        width: 20px;
-        height: 20px;
-        display: inline-block;
-        margin-right: 10px;
-      } */
 
       /* contact us css ends here */
 
@@ -348,7 +293,7 @@ a{text-decoration: none;}
   
 /* line container  */
 
-.line-container{
+/* .line-container{
     position: fixed;
     top: 0;
     left: 0;
@@ -363,8 +308,24 @@ svg {
     display: inline-block;
     height: 100%;
 
-}
+} */
+
 
 /* line container css ends here */
 
+/* h5 css starts here */
 h5{font-size: 1.50rem;}
+/* h5 css ends here */
+
+/* carousel css starts here */
+
+
+/* carousel css ends here */
+
+/* footer css starts here */
+
+    footer {
+       color: rgb(36, 36, 28);}
+
+/* footer css ends here */
+       

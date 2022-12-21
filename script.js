@@ -1,29 +1,47 @@
+// page load from start when refresh code starts here
+window.addEventListener('load', function() {
+  window.scrollTo(0, 0);
+});
+// page load from start when refresh code ends here
+
+
 //    galeri için active hover scripti starts here
 $(document).ready(function() {
   var selectedItem = null;
+
+  $(".list-item").click(function() {
+    if (selectedItem != null) {
+      $(selectedItem).css({
+        "background-color": "rgb(36, 36, 28)",
+        "color": "rgb(245, 245, 245)",
+        "top": "0px"
+      });
+    }
+    selectedItem = this;
+    $(this).css({
+      "background-color": "rgba(36, 36, 28 , 0.2)",
+      "color": "rgb(36, 36, 28)",
+      "top": "-0.75rem"
+    });
+  });
+
   $(".list-item").hover(function() {
     $(this).css({
-      "background-color": "rgb(32, 32, 32)",
-      "color": "white"
+      "background-color": "rgba(36, 36, 28 , 0.8)",
+      "color": "rgb(245, 245, 245)",
+      "top": "-1rem"
     });
   }, function() {
     if (this != selectedItem) {
       $(this).css({
-        "background-color": "black",
-        "color": "white"
+        "background-color": "rgb(36, 36, 28 )",
+        "color": "rgb(245, 245, 245)",
+        "top": "0px"
       });
     }
-  });
-  $(".list-item").click(function() {
-    if (selectedItem != null) {
-      $(selectedItem).css({
-        "background-color": "black",
-        "color": "white"
-      });
-    }
-    selectedItem = this;
   });
 });
+
     
     // galeri için active hover scripti ends here
     
@@ -57,27 +75,31 @@ function calledEvent(){
 
 // logo slide script ends here
 
-// // svg code
-// let path = document.querySelector('path')
+//  svg code
+//  let path = document.querySelector('path')
 //         let pathLength = path.getTotalLength()
 
 //         path.style.strokeDasharray = pathLength + ' ' + pathLength;
         
-//         path.style.strokeDashoffset = pathLength;
+//          path.style.strokeDashoffset = pathLength;
 
 //         window.addEventListener('scroll', () => {
 //             var scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
 
 //             var drawLength = pathLength * 3 * scrollPercentage;
             
-//             path.style.strokeDashoffset = pathLength - drawLength;
-//         })
-
+//              path.style.strokeDashoffset = pathLength - drawLength;
+//       })
 //         // svg code ends
 
+
+// carousel js starts here
 
 $(document).ready(function() {
   $('#carouselExampleFade').carousel({
     interval: 2000
   });
 });
+
+// carousel js ends here
+
