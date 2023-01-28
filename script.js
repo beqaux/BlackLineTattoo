@@ -66,7 +66,7 @@ $(document).ready(function() {
 $(document).ready(function(){
   setTimeout(function() {
     $('#deleted').remove();
-  }, 5000);
+  }, 7000);
 })
 
 window.addEventListener('load', function() {

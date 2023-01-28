@@ -303,7 +303,14 @@ a{text-decoration: none;}
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    animation: fillblack 0.5s ease forwards 3.9s;
+    animation: fillblack 0.5s ease forwards 3.3s;
+}
+#openingLogo2{
+    position: absolute;
+    top: 50%;
+    left: 49.7%;
+    transform: translate(-50%,-50%);
+    animation: fillblack2 0.5s ease forwards 5s;
 }
 /* 2 b harfi */
 #openingLogo path:nth-child(1){
@@ -351,6 +358,12 @@ a{text-decoration: none;}
     stroke-dashoffset: 440;
     animation: line-anim 2s ease forwards 2.4s;
 }
+#openingLogo2 path:nth-child(1){
+    stroke-dasharray: 2500;
+    stroke-dashoffset: 2500;
+    animation: line-anim2 2s ease forwards 3.3s;
+    
+}
 
 
 
@@ -361,7 +374,13 @@ a{text-decoration: none;}
     }
     
 }
-
+/* çizgi için keyframe */
+@keyframes line-anim2 {
+    to{
+        stroke-dashoffset: 1400;
+    }
+    
+}
 @keyframes fillblack{
     from{
         fill: transparent;
@@ -370,7 +389,16 @@ a{text-decoration: none;}
     fill:rgb(36, 36, 28);
     }
 }
-    
+/* çizgi için fillblack fakat kullanmıyoruz */
+/* @keyframes fillblack2{
+    from{
+        fill: transparent;
+    }
+    to{
+    fill:rgb(36, 36, 28);
+   
+    }
+} */
 
 /* logo açılış ends */
 /* h css starts here */
