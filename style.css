@@ -167,6 +167,9 @@ transition:background-position-x 0.5s linear;
     #openingLogo{
        width: 75%;
     }
+    #openingLogo2{
+        width: 75%;
+     }
   }
 .bi-instagram:hover{top: -10;
 color: rgba(36, 36, 28 , 0.5) ;}
