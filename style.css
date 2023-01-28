@@ -2,6 +2,10 @@
 /* page main css starts here */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+@font-face {
+    font-family: "My Font";
+    src: url("myfont.ttf") format("truetype");
+  }
 
 body {
     background-color: rgb(245, 245, 245);
@@ -56,6 +60,7 @@ body {
     color: rgb(36, 36, 28);
     cursor: pointer;
     text-decoration: none;
+    font-family: "My Font", sans-serif;
 }
 
 .navbar-brand:hover{ font-size: 1.25rem;
@@ -120,7 +125,7 @@ body {
     color: rgb(245,245,245);
     transition: 0.5s;
 }
-
+#blacklinetext{ font-family: "My Font", sans-serif;}
 /* main section ends here here */
 
 .about img{
