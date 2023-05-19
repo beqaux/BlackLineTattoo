@@ -2,6 +2,10 @@
 /* page main css starts here */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+@font-face {
+    font-family: "My Font";
+    src: url("myfont.ttf") format("truetype");
+  }
 
 body {
     background-color: rgb(245, 245, 245);
@@ -56,6 +60,7 @@ body {
     color: rgb(36, 36, 28);
     cursor: pointer;
     text-decoration: none;
+    font-family: "My Font", sans-serif;
 }
 
 .navbar-brand:hover{ font-size: 1.25rem;
@@ -120,7 +125,7 @@ body {
     color: rgb(245,245,245);
     transition: 0.5s;
 }
-
+#blacklinetext{ font-family: "My Font", sans-serif;}
 /* main section ends here here */
 
 .about img{
@@ -161,7 +166,9 @@ transition:background-position-x 0.5s linear;
     }
     #openingLogo{
        width: 75%;
-    }
+    }#openingLogo2{
+        width: 75%;
+     }
   }
 .bi-instagram:hover{top: -10;
 color: rgba(36, 36, 28 , 0.5) ;}
@@ -303,7 +310,14 @@ a{text-decoration: none;}
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    animation: fillblack 0.5s ease forwards 3.9s;
+    animation: fillblack 0.5s ease forwards 3.3s;
+}
+#openingLogo2{
+    position: absolute;
+    top: 50%;
+    left: 49.7%;
+    transform: translate(-50%,-50%);
+    animation: fillblack2 0.5s ease forwards 5s;
 }
 /* 2 b harfi */
 #openingLogo path:nth-child(1){
@@ -351,6 +365,12 @@ a{text-decoration: none;}
     stroke-dashoffset: 440;
     animation: line-anim 2s ease forwards 2.4s;
 }
+#openingLogo2 path:nth-child(1){
+    stroke-dasharray: 2500;
+    stroke-dashoffset: 2500;
+    animation: line-anim2 2s ease forwards 3.5s;
+    
+}
 
 
 
@@ -361,7 +381,13 @@ a{text-decoration: none;}
     }
     
 }
-
+/* çizgi için keyframe */
+@keyframes line-anim2 {
+    to{
+        stroke-dashoffset: 1400;
+    }
+    
+}
 @keyframes fillblack{
     from{
         fill: transparent;
@@ -370,7 +396,16 @@ a{text-decoration: none;}
     fill:rgb(36, 36, 28);
     }
 }
-    
+/* çizgi için fillblack fakat kullanmıyoruz */
+/* @keyframes fillblack2{
+    from{
+        fill: transparent;
+    }
+    to{
+    fill:rgb(36, 36, 28);
+   
+    }
+} */
 
 /* logo açılış ends */
 /* h css starts here */

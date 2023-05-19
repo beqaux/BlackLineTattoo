@@ -66,8 +66,17 @@ $(document).ready(function() {
 $(document).ready(function(){
   setTimeout(function() {
     $('#deleted').remove();
-  }, 5000);
+  }, 5500);
 })
+
+$(document).ready(function(){
+    var navBar = document.getElementById("navBar");
+    navBar.style.visibility = "hidden";
+    setTimeout(function(){
+        navBar.style.visibility = "visible";
+    }, 5500);
+  })
+
 
 window.addEventListener('load', function() {
   // Disable scrolling
@@ -77,5 +86,5 @@ window.addEventListener('load', function() {
   // Re-enable scrolling after 5 seconds
   setTimeout(function() {
     document.body.style.overflow = 'auto';
-  }, 5000);
+  }, 5500);
 });
